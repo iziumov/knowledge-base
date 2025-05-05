@@ -1,12 +1,15 @@
 ## Boolean Algebra
 
-X AND Y
+### X AND Y
+
 ![alt text](images/image.png)
 
-X OR Y
+### X OR Y
+
 ![alt text](images/image-1.png)
 
-NOT X
+### NOT X
+
 ![alt text](images/image-2.png)
 
 ## commutative
