@@ -23,27 +23,27 @@
 | O(n log n) без доп. памяти                  | Сортировка                                  |
 | Общие строки или элементы между структурами | HashMap, Trie                               |
 
-#### two pointers
+#### two pointers +
 
-#### fast & slow pointers
+#### fast & slow pointers +
 
-#### sliding window
+#### sliding window +
 
 #### merge intervals
 
 #### cyclic sort
 
-#### In place reversal of a linked list
+#### In place reversal of a linked list +
 
-#### stacks
+#### stacks +
 
 #### monotopics stack
 
-#### hash maps
+#### hash maps +
 
-#### tree breadth first search
+#### tree breadth first search +
 
-#### tree depth first search
+#### tree depth first search +
 
 #### graphs
 
@@ -63,4 +63,4 @@
 
 #### greedy algorithms
 
-#### trie
+#### trie +
