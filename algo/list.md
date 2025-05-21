@@ -39,16 +39,16 @@
 
 ### Programming Skills II
 
-- [ ] 896.  Monotonic Array
-- [ ] 28. Implement strStr()
-- [ ] 110.  Balanced Binary Tree
-- [ ] 459.  Repeated Substring Pattern
-- [ ] 150.  Evaluate Reverse Polish Notation
-- [ ] 66. Plus One
-- [ ] 1367. Linked List in Binary Tree
-- [ ] 43. Multiply Strings
 - [ ] 67. Add Binary
-- [ ] 989.  Add to Array-Form of Integer
+- [x] 896.  Monotonic Array
+- [x] 28. Implement strStr()
+- [x] 110.  Balanced Binary Tree
+- [x] 459.  Repeated Substring Pattern
+- [x] 150.  Evaluate Reverse Polish Notation
+- [x] 66. Plus One
+- [x] 1367. Linked List in Binary Tree
+- [x] 43. Multiply Strings
+- [x] 989.  Add to Array-Form of Integer
 - [ ] 739.  Daily Temperatures
 - [ ] 58. Length of Last Word
 - [ ] 48. Rotate Image
@@ -863,3 +863,22 @@
 - [ ] 302.  Smallest Rectangle Enclosing Black Pixels
 - [ ] 1631. Path With Minimum Effort
 - [ ] 1782. Count Pairs Of Nodes
+
+```
+459. Repeated Substring Pattern
+
+var repeatedSubstringPattern = function(s) {
+    let n = s.length;
+
+    for(let l = 1; l <= Math.floor(n / 2); l++) {
+        if (n % l !== 0) continue;
+
+        const substring = s.slice(0, l);
+        const repeated = substring.repeat(n / l);
+
+        if (repeated === s) return true;
+    }
+
+    return false;
+};
+```
